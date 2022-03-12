@@ -2,7 +2,135 @@
 <html lang="en">
 <head>
     
+   <style>
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+margin: 0 auto;
+width: 50%;
+font-family: "poppins", sans-serif;
+
+    height: 100vh;
+    background: linear-gradient(
+        360deg,
+        #da9c41,
+        #dfc44f
+    );
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.container{
+    width: 40%;
+    min-width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    align-items: center;
+    align-content: center;
+
+    
+}
+     
+#button{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 8%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #f5f2ef;
+    padding: 12px;
+    margin-left: 30%;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+
+ 
+
+}
+
+.toDos {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+.paragraph-styling {
+margin-top : 1px;
+cursor: pointer;
+font-size: 20px;
+
+
+}
+#input 
+{
+    width: 48%;
+    height: 1%;
+    position: relative;
+    font-family: "poppins", sans-serif;
+    background-color: #ffffff;
+    align-items: center;   
+    font-size: 14px;
+    padding: 2% 2%;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+#current_date{
+    
+    font-family: 'Poppins',sans-serif;
+    font-size: 35px;
+    padding-bottom: 6%;
+    position: relative;
+    color: #111111;
+    font-weight: 500;
    
+    
+}
+#nYmes{
+    
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    padding-bottom: 6%;
+    position: relative;
+    color: #111111;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+
+    </style>
 
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
